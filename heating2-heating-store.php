@@ -42,43 +42,43 @@
 						<div class="row">
 							<div class="col-md-2 col-sm-4 col-xs-5">
 								<div class="logo">
-									<a href="index.html"><img src="img/spark-logo.png" alt="" /></a>
+									<a href="index.php"><img src="img/spark-logo.png" alt="" /></a>
 								</div>
 							</div>
 							<div class="col-md-8 hidden-xs hidden-sm">
 								<div class="main-menu">
 									<nav>
 										<ul>
-											<li><a href="index.html">home</a>
+											<li><a href="index.php">home</a>
 											</li>
-											<li><a href="about.html">about</a></li>
+											<li><a href="about.php">about</a></li>
 											<li><a href="#">store</a>
 												<div class="mega-menu mega-menu-2">											
 													<span>
 														<a href="#" class="mega-title">control automation </a>
-														<a href="capacitors-store.html">capacitors</a>
-														<a href="contactors-store.html">contactors</a>
-														<a href="relay-store.html">relays </a>
-														<a href="fuses-store.html">fuses </a>
+														<a href="capacitors-store.php">capacitors</a>
+														<a href="contactors-store.php">contactors</a>
+														<a href="relay-store.php">relays </a>
+														<a href="fuses-store.php">fuses </a>
 													</span>
 													<span>
 														<a href="#" class="mega-title">switches </a>
-														<a href="gridswitch-store.html">grid switches</a>
-														<a href="switchgears-store.html">switchgears</a>
-														<a href="mcb-store.html">mcb's </a>
+														<a href="gridswitch-store.php">grid switches</a>
+														<a href="switchgears-store.php">switchgears</a>
+														<a href="mcb-store.php">mcb's </a>
 														
 													</span>
 													<span>
 														<a href="#" class="mega-title">other items </a>
-														<a href="lighting-store.html">lighting </a>
-														<a href="heating-store.html">heating </a>
+														<a href="lighting-store.php">lighting </a>
+														<a href="heating-store.php">heating </a>
 																				</span>
 													<span class="mega-menu-img">
 														<a href="#"><img alt="" src="img/about_pics/store-image.png"></a>
 													</span>
 												</div>											
 											</li>
-											<li><a href="contact.html">contact</a></li>
+											<li><a href="contact.php">contact</a></li>
 										</ul>
 									</nav>
 								</div>
@@ -86,26 +86,26 @@
 							<div class="col-md-2 col-sm-8 col-xs-7 header-right">
 								<div class="my-cart">
 									<div class="total-cart">
-										<a href="cart.html">
+										<a href="cart.php">
 											<i class="fa fa-shopping-cart"></i>
 											<span>2</span>
 										</a>								
 									</div>
 									<ul>
 										<li>
-											<a class="cart-button" href="cart.html">view cart</a>
-											<a class="checkout" href="checkout.html">checkout</a>
+											<a class="cart-button" href="cart.php">view cart</a>
+											<a class="checkout" href="checkout.php">checkout</a>
 										</li>
 									</ul>
 								</div>
 								<div class="user-meta">
 									<a href="#"><i class="fa fa-cog"></i></a>
 									<ul>
-										<li><a href="login.html">My Account</a></li>
+										<li><a href="login.php">My Account</a></li>
 										
-										<li><a href="checkout.html">Checkout</a></li>
+										<li><a href="checkout.php">Checkout</a></li>
 										
-										<li><a href="login.html">Log in</a></li>
+										<li><a href="login.php">Log in</a></li>
 									</ul>								
 								</div>
 								<div class="header-search">
@@ -131,39 +131,39 @@
 							<div class="mobile-menu">
 								<nav id="dropdown">
 									<ul>
-										<li><a href="index.html">Home</a>
+										<li><a href="index.php">Home</a>
 									
 										</li>
-										<li><a href="about.html">About</a></li>
-										<li><a href="shop-full-width.html">Store</a>
+										<li><a href="about.php">About</a></li>
+										<li><a href="shop-full-width.php">Store</a>
 											<ul>
 												<li><a href="#">control automation</a>
 													<ul>
-														<li><a href="capacitors-store.html">capacitors</a></li>
-														<li><a href="contactors-store.html">contactors</a></li>
-														<li><a href="relay-store.html">relays </a></li>
-														<li><a href="fuses-store.html">fuses</a></li>
+														<li><a href="capacitors-store.php">capacitors</a></li>
+														<li><a href="contactors-store.php">contactors</a></li>
+														<li><a href="relay-store.php">relays </a></li>
+														<li><a href="fuses-store.php">fuses</a></li>
 													</ul>
 												</li>
 												<li><a href="#">switches</a>
 													<ul>
-														<li><a href="gridswitch-store.html">grid switches</a></li>
-														<li><a href="switchgears-store.html">switchgears</a></li>
-														<li><a href="mcb-store.html">mcb's </a></li>
+														<li><a href="gridswitch-store.php">grid switches</a></li>
+														<li><a href="switchgears-store.php">switchgears</a></li>
+														<li><a href="mcb-store.php">mcb's </a></li>
 														
 													</ul>
 												</li>
 												<li><a href="#">other items</a>
 													<ul>
-														<li><a href="lighting-store.html">lighting </a></li>
-														<li><a href="heating-store.html">heating</a></li>
+														<li><a href="lighting-store.php">lighting </a></li>
+														<li><a href="heating-store.php">heating</a></li>
 														
 													</ul>
 												</li>											
 											</ul>
 										</li>
 									
-									<li><a href="contact.html">Contact</a></li>
+									<li><a href="contact.php">Contact</a></li>
 									</ul>
 								</nav>
 							</div>					
@@ -182,8 +182,8 @@
 						<div class="breadcrumb-list">
 							<h1>Product Details</h1>
 							<ul>
-								<li><a href="index.html">home</a> <span class="divider">|</span></li>
-								<li><a href="heating-store.html">heating</a> <span class="divider">|</span></li>
+								<li><a href="index.php">home</a> <span class="divider">|</span></li>
+								<li><a href="heating-store.php">heating</a> <span class="divider">|</span></li>
 								<li>Product details</li>
 							</ul>							
 						</div>
@@ -210,7 +210,6 @@
 							</div>
 							<div class="col-md-7 col-sm-7 col-xs-12 shop-list shop-details">								
 								<div class="product-content">
-									<h3><a href="#" id="product-id">product id</a></h3>
 									<h3><a href="#">GOOSENECK CLIP FAN</a></h3>
 									<div class="price">
 										<span>Rs.7500</span>
@@ -457,10 +456,10 @@
 							<div class="footer-widget">
 								<h3>My account</h3>
 								<ul class="footer-menu">
-									<li><a href="checkout.html">Order Status</a></li>
-									<li><a href="login.html">Register</a></li>
-									<li><a href="login.html">Sign-up</a></li>
-									<li><a href="checkout.html">Payment Options</a></li>
+									<li><a href="checkout.php">Order Status</a></li>
+									<li><a href="login.php">Register</a></li>
+									<li><a href="login.php">Sign-up</a></li>
+									<li><a href="checkout.php">Payment Options</a></li>
 								</ul>
 							</div>
 						</div>
@@ -470,10 +469,10 @@
 							<div class="footer-widget">
 								<h3>about us</h3>
 								<ul class="footer-menu">
-									<li><a href="checkout.html">Payment</a></li>
-									<li><a href="thank-you.html">Feedback</a></li>
-									<li><a href="about.html">About Us</a></li>
-									<li><a href="contact.html">Contact Us</a></li>
+									<li><a href="checkout.php">Payment</a></li>
+									<li><a href="thank-you.php">Feedback</a></li>
+									<li><a href="about.php">About Us</a></li>
+									<li><a href="contact.php">Contact Us</a></li>
 								</ul>
 							</div>
 						</div>
@@ -526,61 +525,6 @@
 		</footer>
 		<!-- footer end -->
 
-		<!-- QUICKVIEW PRODUCT -->
-		<div id="quickview-wrapper">
-			<!-- Modal -->
-			<div class="modal fade" id="productModal" tabindex="-1" role="dialog">
-				<div class="modal-dialog" role="document">
-					<div class="modal-content">
-						<div class="modal-header">
-							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						</div>
-						<div class="modal-body">
-							<div class="modal-product">
-								<div class="product-images">
-									<div class="main-image images">
-										<img alt="" src="img/product/13.jpg">
-									</div>
-								</div><!-- .product-images -->
-								
-								<div class="product-info">
-									<h1>Diam quis cursus</h1>
-									<div class="price-box">
-										<p class="price"><span class="special-price"><span class="amount">$132.00</span></span></p>
-									</div>
-									<a href="shop.html" class="see-all">See all features</a>
-									<div class="quick-add-to-cart">
-										<form method="post" class="cart">
-											<div class="numbers-row">
-												<input type="number" id="french-hens" value="3">
-											</div>
-											<button class="single_add_to_cart_button" type="submit">Add to cart</button>
-										</form>
-									</div>
-									<div class="quick-desc">
-										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fringilla augue nec est tristique auctor. Donec non est at libero vulputate rutrum. Morbi ornare lectus quis justo gravida semper. Nulla tellus mi, vulputate adipiscing cursus eu, suscipit id nulla.
-									</div>
-									<div class="social-sharing">
-										<div class="widget widget_socialsharing_widget">
-											<h3 class="widget-title-modal">Share this product</h3>
-											<ul class="social-icons">
-												<li><a target="_blank" title="Facebook" href="#" class="facebook social-icon"><i class="fa fa-facebook"></i></a></li>
-												<li><a target="_blank" title="Twitter" href="#" class="twitter social-icon"><i class="fa fa-twitter"></i></a></li>
-												<li><a target="_blank" title="Pinterest" href="#" class="pinterest social-icon"><i class="fa fa-pinterest"></i></a></li>
-												<li><a target="_blank" title="Google +" href="#" class="gplus social-icon"><i class="fa fa-google-plus"></i></a></li>
-												<li><a target="_blank" title="LinkedIn" href="#" class="linkedin social-icon"><i class="fa fa-linkedin"></i></a></li>
-											</ul>
-										</div>
-									</div>
-								</div><!-- .product-info -->
-							</div><!-- .modal-product -->
-						</div><!-- .modal-body -->
-					</div><!-- .modal-content -->
-				</div><!-- .modal-dialog -->
-			</div>
-			<!-- END Modal -->
-		</div>
-		<!-- END QUICKVIEW PRODUCT -->	
 
 		<!-- all js here -->
 		<!-- jquery latest version -->

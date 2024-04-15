@@ -43,43 +43,43 @@
 						<div class="row">
 							<div class="col-md-2 col-sm-4 col-xs-5">
 								<div class="logo">
-									<a href="index.html"><img src="img/spark-logo.png" alt="" /></a>
+									<a href="index.php"><img src="img/spark-logo.png" alt="" /></a>
 								</div>
 							</div>
 							<div class="col-md-8 hidden-xs hidden-sm">
 								<div class="main-menu">
 									<nav>
 										<ul>
-											<li><a href="index.html">home</a>
+											<li><a href="index.php">home</a>
 											</li>
-											<li><a href="about.html">about</a></li>
+											<li><a href="about.php">about</a></li>
 											<li><a href="#">store</a>
 												<div class="mega-menu mega-menu-2">											
 													<span>
 														<a href="#" class="mega-title">control automation </a>
-														<a href="capacitors-store.html">capacitors</a>
-														<a href="contactors-store.html">contactors</a>
-														<a href="relay-store.html">relays </a>
-														<a href="fuses-store.html">fuses </a>
+														<a href="capacitors-store.php">capacitors</a>
+														<a href="contactors-store.php">contactors</a>
+														<a href="relay-store.php">relays </a>
+														<a href="fuses-store.php">fuses </a>
 													</span>
 													<span>
 														<a href="#" class="mega-title">switches </a>
-														<a href="gridswitch-store.html">grid switches</a>
-														<a href="switchgears-store.html">switchgears</a>
-														<a href="mcb-store.html">mcb's </a>
+														<a href="gridswitch-store.php">grid switches</a>
+														<a href="switchgears-store.php">switchgears</a>
+														<a href="mcb-store.php">mcb's </a>
 														
 													</span>
 													<span>
 														<a href="#" class="mega-title">other items </a>
-														<a href="lighting-store.html">lighting </a>
-														<a href="heating-store.html">heating </a>
+														<a href="lighting-store.php">lighting </a>
+														<a href="heating-store.php">heating </a>
 																				</span>
 													<span class="mega-menu-img">
 														<a href="#"><img alt="" src="img/about_pics/store-image.png"></a>
 													</span>
 												</div>											
 											</li>
-											<li><a href="contact.html">contact</a></li>
+											<li><a href="contact.php">contact</a></li>
 										</ul>
 									</nav>
 								</div>
@@ -87,26 +87,26 @@
 							<div class="col-md-2 col-sm-8 col-xs-7 header-right">
 								<div class="my-cart">
 									<div class="total-cart">
-										<a href="cart.html">
+										<a href="cart.php">
 											<i class="fa fa-shopping-cart"></i>
 											<span>2</span>
 										</a>								
 									</div>
 									<ul>
 										<li>
-											<a class="cart-button" href="cart.html">view cart</a>
-											<a class="checkout" href="checkout.html">checkout</a>
+											<a class="cart-button" href="cart.php">view cart</a>
+											<a class="checkout" href="checkout.php">checkout</a>
 										</li>
 									</ul>
 								</div>
 								<div class="user-meta">
 									<a href="#"><i class="fa fa-cog"></i></a>
 									<ul>
-										<li><a href="login.html">My Account</a></li>
+										<li><a href="login.php">My Account</a></li>
 										
-										<li><a href="checkout.html">Checkout</a></li>
+										<li><a href="checkout.php">Checkout</a></li>
 										
-										<li><a href="login.html">Log in</a></li>
+										<li><a href="login.php">Log in</a></li>
 									</ul>								
 								</div>
 								<div class="header-search">
@@ -132,39 +132,39 @@
 							<div class="mobile-menu">
 								<nav id="dropdown">
 									<ul>
-										<li><a href="index.html">Home</a>
+										<li><a href="index.php">Home</a>
 									
 										</li>
-										<li><a href="about.html">About</a></li>
-										<li><a href="shop-full-width.html">Store</a>
+										<li><a href="about.php">About</a></li>
+										<li><a href="shop-full-width.php">Store</a>
 											<ul>
 												<li><a href="#">control automation</a>
 													<ul>
-														<li><a href="capacitors-store.html">capacitors</a></li>
-														<li><a href="contactors-store.html">contactors</a></li>
-														<li><a href="relay-store.html">relays </a></li>
-														<li><a href="fuses-store.html">fuses</a></li>
+														<li><a href="capacitors-store.php">capacitors</a></li>
+														<li><a href="contactors-store.php">contactors</a></li>
+														<li><a href="relay-store.php">relays </a></li>
+														<li><a href="fuses-store.php">fuses</a></li>
 													</ul>
 												</li>
 												<li><a href="#">switches</a>
 													<ul>
-														<li><a href="gridswitch-store.html">grid switches</a></li>
-														<li><a href="switchgears-store.html">switchgears</a></li>
-														<li><a href="mcb-store.html">mcb's </a></li>
+														<li><a href="gridswitch-store.php">grid switches</a></li>
+														<li><a href="switchgears-store.php">switchgears</a></li>
+														<li><a href="mcb-store.php">mcb's </a></li>
 														
 													</ul>
 												</li>
 												<li><a href="#">other items</a>
 													<ul>
-														<li><a href="lighting-store.html">lighting </a></li>
-														<li><a href="heating-store.html">heating</a></li>
+														<li><a href="lighting-store.php">lighting </a></li>
+														<li><a href="heating-store.php">heating</a></li>
 														
 													</ul>
 												</li>											
 											</ul>
 										</li>
 									
-									<li><a href="contact.html">Contact</a></li>
+									<li><a href="contact.php">Contact</a></li>
 									</ul>
 								</nav>
 							</div>
@@ -232,7 +232,7 @@
 				<div class="row" >
 					<div class="col-md-4 col-sm-6">
 						<div class="single-banner">
-							<a href="contactors-store.html">
+							<a href="contactors-store.php">
 								<img src="images/popular/contactor realys.jpg" alt="" />
 								<div class="banner-caption">
 									<h2> <span>Contactor Relays</span></h2>
@@ -241,7 +241,7 @@
 							</a>
 						</div>
 						<div class="single-banner marg-20">
-							<a href="switchgears-store.html">
+							<a href="switchgears-store.php">
 								<img src="images/popular/switch gears2.png" alt="" />
 								<div class="banner-caption">
 									<h2> <span>Switchgear</span></h2>
@@ -252,7 +252,7 @@
 					</div>
 					<div class="col-md-4 col-sm-6">
 						<div class="single-banner">
-							<a href="mcb-store.html">
+							<a href="mcb-store.php">
 								<img src="images/popular/mcbs pole.jpg" alt="" />
 								<div class="banner-caption">
 									<h2> <span> MCB's Pole</span></h2>
@@ -263,7 +263,7 @@
 					</div>
 					<div class="col-md-4">
 						<div class="single-banner">
-							<a href="gridswitch-store.html">
+							<a href="gridswitch-store.php">
 								<img src="images/popular/grid switches.jpg" alt="" />
 								<div class="banner-caption">
 									<h2> <span>Grid Switches</span></h2>
@@ -272,7 +272,7 @@
 							</a>
 						</div>
 						<div class="single-banner marg-20">
-							<a href="relay-store.html">
+							<a href="relay-store.php">
 								<img src="images/popular/safety relays.png" alt="" />
 								<div class="banner-caption">
 									<h2><span> Safety Relays</span></h2>
@@ -309,14 +309,14 @@
 											<div class="col-md-12">
 												<div class="single-product">
 													<div class="product-img">
-														<a href="fuse1-fuses-store.html">
+														<a href="fuse1-fuses-store.php">
 															<img src="images/new_arrival/fuse.png" alt="" />
 															<img class="secondary-img" src="images/new_arrival/fuse2.png" alt="" />
 														</a>
 														<span class="tag-line">new</span>
 														<div class="product-action">
 															<div class="button-top">
-																<a href="fuse1-fuses-store.html" ><i class="fa fa-search"></i></a>
+																<a href="fuse1-fuses-store.php" ><i class="fa fa-search"></i></a>
 																<a href="#" ><i class="fa fa-heart"></i></a>
 															</div>
 															<div class="button-cart">
@@ -338,14 +338,14 @@
 											<div class="col-md-12">
 												<div class="single-product">
 													<div class="product-img">
-														<a href="gridswitch1-gridswitches-store.html">
+														<a href="gridswitch1-gridswitches-store.php">
 															<img src="images/new_arrival/grid switch.png" alt="" />
 															<img class="secondary-img" src="images/new_arrival/grid switch2.png" alt="" />
 														</a>
 														<span class="tag-line">new</span>
 														<div class="product-action">
 															<div class="button-top">
-																<a href="gridswitch1-gridswitches-store.html" ><i class="fa fa-search"></i></a>
+																<a href="gridswitch1-gridswitches-store.php" ><i class="fa fa-search"></i></a>
 																<a href="#" ><i class="fa fa-heart"></i></a>
 															</div>
 															<div class="button-cart">
@@ -367,14 +367,14 @@
 											<div class="col-md-12">
 												<div class="single-product">
 													<div class="product-img">
-														<a href="relay5-relays-store.html">
+														<a href="relay5-relays-store.php">
 															<img src="images/new_arrival/safety relay.png" alt="" />
 															<img class="secondary-img" src="images/new_arrival/safety relay2.png" alt="" />
 														</a>
 														<span class="tag-line">new</span>
 														<div class="product-action">
 															<div class="button-top">
-																<a href="relay5-relays-store.html" ><i class="fa fa-search"></i></a>
+																<a href="relay5-relays-store.php" ><i class="fa fa-search"></i></a>
 																<a href="#" ><i class="fa fa-heart"></i></a>
 															</div>
 															<div class="button-cart">
@@ -396,14 +396,14 @@
 											<div class="col-md-12">
 												<div class="single-product">
 													<div class="product-img">
-														<a href="lighting1-lighting-store.html">
+														<a href="lighting1-lighting-store.php">
 															<img src="images/new_arrival/lighting saver.png" alt="" />
 															<img class="secondary-img" src="images/new_arrival/lighting saver2.png" alt="" />
 														</a>
 														<span class="tag-line">new</span>
 														<div class="product-action">
 															<div class="button-top">
-																<a href="lighting1-lighting-store.html" ><i class="fa fa-search"></i></a>
+																<a href="lighting1-lighting-store.php" ><i class="fa fa-search"></i></a>
 																<a href="#" ><i class="fa fa-heart"></i></a>
 															</div>
 															<div class="button-cart">
@@ -425,14 +425,14 @@
 											<div class="col-md-12">
 												<div class="single-product">
 													<div class="product-img">
-														<a href="capacitor2-capacitors-store.html">
+														<a href="capacitor2-capacitors-store.php">
 															<img src="img/product/capacitor2-1.png" alt="" />
 															<img class="secondary-img" src="img/product/capacitor2-2.png" alt="" />
 														</a>
 														<span class="tag-line">new</span>
 														<div class="product-action">
 															<div class="button-top">
-																<a href="capacitor2-capacitors-store.html" ><i class="fa fa-search"></i></a>
+																<a href="capacitor2-capacitors-store.php" ><i class="fa fa-search"></i></a>
 																<a href="#" ><i class="fa fa-heart"></i></a>
 															</div>
 															<div class="button-cart">
@@ -454,14 +454,14 @@
 											<div class="col-md-12">
 												<div class="single-product">
 													<div class="product-img">
-														<a href="lighting2-lighting-store.html">
+														<a href="lighting2-lighting-store.php">
 															<img src="img/product/saver.png" alt="" />
 															<img class="secondary-img" src="img/product/saver2.png" alt="" />
 														</a>
 														<span class="tag-line">new</span>
 														<div class="product-action">
 															<div class="button-top">
-																<a href="lighting2-lighting-store.html" ><i class="fa fa-search"></i></a>
+																<a href="lighting2-lighting-store.php" ><i class="fa fa-search"></i></a>
 																<a href="#" ><i class="fa fa-heart"></i></a>
 															</div>
 															<div class="button-cart">
@@ -509,14 +509,14 @@
 						<div class="col-md-12">
 							<div class="single-product">
 								<div class="product-img">
-									<a href="fuse3-fuses-store.html">
+									<a href="fuse3-fuses-store.php">
 										<img src="img/product/fuses1.png" alt="" />
 										<img class="secondary-img" src="img/product/fuses2.png" alt="" />
 									</a>
 									<span class="tag-line">new</span>
 									<div class="product-action">
 										<div class="button-top">
-											<a href="fuse3-fuses-store.html" ><i class="fa fa-search"></i></a>
+											<a href="fuse3-fuses-store.php" ><i class="fa fa-search"></i></a>
 											<a href="#" ><i class="fa fa-heart"></i></a>
 										</div>
 										<div class="button-cart">
@@ -534,14 +534,14 @@
 							</div>
 							<div class="single-product">
 								<div class="product-img">
-									<a href="capacitor1-capacitors-store.html">
+									<a href="capacitor1-capacitors-store.php">
 										<img src="img/product/capacitors.png" alt="" />
 										<img class="secondary-img" src="img/product/capacitors2.png" alt="" />
 									</a>
 									<span class="tag-line">new</span>
 									<div class="product-action">
 										<div class="button-top">
-											<a href="capacitor1-capacitors-store.html" ><i class="fa fa-search"></i></a>
+											<a href="capacitor1-capacitors-store.php" ><i class="fa fa-search"></i></a>
 											<a href="#" ><i class="fa fa-heart"></i></a>
 										</div>
 										<div class="button-cart">
@@ -563,14 +563,14 @@
 						<div class="col-md-12">
 							<div class="single-product">
 								<div class="product-img">
-									<a href="contactor1-contactors-store.html">
+									<a href="contactor1-contactors-store.php">
 										<img src="img/product/contactor1.png" alt="" />
 										<img class="secondary-img" src="img/product/contactor2.png" alt="" />
 									</a>
 									<span class="tag-line">new</span>
 									<div class="product-action">
 										<div class="button-top">
-											<a href="contactor1-contactors-store.html" ><i class="fa fa-search"></i></a>
+											<a href="contactor1-contactors-store.php" ><i class="fa fa-search"></i></a>
 											<a href="#" ><i class="fa fa-heart"></i></a>
 										</div>
 										<div class="button-cart">
@@ -588,14 +588,14 @@
 							</div>
 							<div class="single-product">
 								<div class="product-img">
-									<a href="gridswitch2-gridswitches-store.html">
+									<a href="gridswitch2-gridswitches-store.php">
 										<img src="img/product/grid-switch.png" alt="" />
 										<img class="secondary-img" src="img/product/grid-switch2.png" alt="" />
 									</a>
 									<span class="tag-line">new</span>
 									<div class="product-action">
 										<div class="button-top">
-											<a href="gridswitch2-gridswitches-store.html" ><i class="fa fa-search"></i></a>
+											<a href="gridswitch2-gridswitches-store.php" ><i class="fa fa-search"></i></a>
 											<a href="#" ><i class="fa fa-heart"></i></a>
 										</div>
 										<div class="button-cart">
@@ -617,14 +617,14 @@
 						<div class="col-md-12">
 							<div class="single-product">
 								<div class="product-img">
-									<a href="fuse2-fuses-store.html.html">
+									<a href="fuse2-fuses-store.php">
 										<img src="img/product/fuse-holder.png" alt="" />
 										<img class="secondary-img" src="img/product/fuse-holder2.png" alt="" />
 									</a>
 									<span class="tag-line">new</span>
 									<div class="product-action">
 										<div class="button-top">
-											<a href="fuse2-fuses-store.html.html" ><i class="fa fa-search"></i></a>
+											<a href="fuse2-fuses-store.php" ><i class="fa fa-search"></i></a>
 											<a href="#" ><i class="fa fa-heart"></i></a>
 										</div>
 										<div class="button-cart">
@@ -642,14 +642,14 @@
 							</div>
 							<div class="single-product">
 								<div class="product-img">
-									<a href="mcb4-mcbs-store.html">
+									<a href="mcb4-mcbs-store.php">
 										<img src="img/product/mcbs-pole.png" alt="" />
 										<img class="secondary-img" src="img/product/mcbs-pole2.png" alt="" />
 									</a>
 									<span class="tag-line">new</span>
 									<div class="product-action">
 										<div class="button-top">
-											<a href="mcb4-mcbs-store.html" ><i class="fa fa-search"></i></a>
+											<a href="mcb4-mcbs-store.php" ><i class="fa fa-search"></i></a>
 											<a href="#" ><i class="fa fa-heart"></i></a>
 										</div>
 										<div class="button-cart">
@@ -671,14 +671,14 @@
 						<div class="col-md-12">
 							<div class="single-product">
 								<div class="product-img">
-									<a href="relay1-relays-store.html">
+									<a href="relay1-relays-store.php">
 										<img src="img/product/relay.png" alt="" />
 										<img class="secondary-img" src="img/product/relay2.png" alt="" />
 									</a>
 									<span class="tag-line">new</span>
 									<div class="product-action">
 										<div class="button-top">
-											<a href="relay1-relays-store.html" ><i class="fa fa-search"></i></a>
+											<a href="relay1-relays-store.php" ><i class="fa fa-search"></i></a>
 											<a href="#" ><i class="fa fa-heart"></i></a>
 										</div>
 										<div class="button-cart">
@@ -696,14 +696,14 @@
 							</div>
 							<div class="single-product">
 								<div class="product-img">
-									<a href="gridswitch3-gridswitches-store.html">
+									<a href="gridswitch3-gridswitches-store.php">
 										<img src="img/product/arteor-grid-switch.png" alt="" />
 										<img class="secondary-img" src="img/product/arteor-grid-switch2.png" alt="" />
 									</a>
 									<span class="tag-line">new</span>
 									<div class="product-action">
 										<div class="button-top">
-											<a href="gridswitch3-gridswitches-store.html" ><i class="fa fa-search"></i></a>
+											<a href="gridswitch3-gridswitches-store.php" ><i class="fa fa-search"></i></a>
 											<a href="#" ><i class="fa fa-heart"></i></a>
 										</div>
 										<div class="button-cart">
@@ -835,10 +835,10 @@
 							<div class="footer-widget">
 								<h3>My account</h3>
 								<ul class="footer-menu">
-									<li><a href="checkout.html">Order Status</a></li>
-									<li><a href="login.html">Register</a></li>
-									<li><a href="login.html">Sign-up</a></li>
-									<li><a href="checkout.html">Payment Options</a></li>
+									<li><a href="checkout.php">Order Status</a></li>
+									<li><a href="login.php">Register</a></li>
+									<li><a href="login.php">Sign-up</a></li>
+									<li><a href="checkout.php">Payment Options</a></li>
 								</ul>
 							</div>
 						</div>
@@ -848,10 +848,10 @@
 							<div class="footer-widget">
 								<h3>about us</h3>
 								<ul class="footer-menu">
-									<li><a href="checkout.html">Payment</a></li>
-									<li><a href="thank-you.html">Feedback</a></li>
-									<li><a href="about.html">About Us</a></li>
-									<li><a href="contact.html">Contact Us</a></li>
+									<li><a href="checkout.php">Payment</a></li>
+									<li><a href="thank-you.php">Feedback</a></li>
+									<li><a href="about.php">About Us</a></li>
+									<li><a href="contact.php">Contact Us</a></li>
 								</ul>
 							</div>
 						</div>

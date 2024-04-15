@@ -1,4 +1,29 @@
-﻿<!doctype html>
+﻿<!-- registration -->
+<?php 
+
+include "config/db_connection.php";
+
+if($_SERVER["REQUEST_METHOD"] == "POST"){
+        $mail = $_POST["email"];
+        $name = $_POST["name"];
+        $pass = $_POST["password"];
+        $query = "INSERT INTO register(name , email, password ) VALUES ( '$name' , '$mail' , '$pass' ) ";
+       if( mysqli_query($conn , $query)){
+        header( "Location: index.php" );
+      }
+      else{
+        echo "<script>alert('Error in inserting data');</script>";
+      }
+      ;
+        
+
+}
+
+?>
+
+<!-- login authentication -->
+
+<!doctype html>
 <html class="no-js" lang="">
     <head>
         <meta charset="utf-8">
@@ -42,43 +67,43 @@
 						<div class="row">
 							<div class="col-md-2 col-sm-4 col-xs-5">
 								<div class="logo">
-									<a href="index.html"><img src="img/spark-logo.png" alt="" /></a>
+									<a href="index.php"><img src="img/spark-logo.png" alt="" /></a>
 								</div>
 							</div>
 							<div class="col-md-8 hidden-xs hidden-sm">
 								<div class="main-menu">
 									<nav>
 										<ul>
-											<li><a href="index.html">home</a>
+											<li><a href="index.php">home</a>
 											</li>
-											<li><a href="about.html">about</a></li>
+											<li><a href="about.php">about</a></li>
 											<li><a href="#">store</a>
 												<div class="mega-menu mega-menu-2">											
 													<span>
 														<a href="#" class="mega-title">control automation </a>
-														<a href="capacitors-store.html">capacitors</a>
-														<a href="contactors-store.html">contactors</a>
-														<a href="relay-store.html">relays </a>
-														<a href="fuses-store.html">fuses </a>
+														<a href="capacitors-store.php">capacitors</a>
+														<a href="contactors-store.php">contactors</a>
+														<a href="relay-store.php">relays </a>
+														<a href="fuses-store.php">fuses </a>
 													</span>
 													<span>
 														<a href="#" class="mega-title">switches </a>
-														<a href="gridswitch-store.html">grid switches</a>
-														<a href="switchgears-store.html">switchgears</a>
-														<a href="mcb-store.html">mcb's </a>
+														<a href="gridswitch-store.php">grid switches</a>
+														<a href="switchgears-store.php">switchgears</a>
+														<a href="mcb-store.php">mcb's </a>
 														
 													</span>
 													<span>
 														<a href="#" class="mega-title">other items </a>
-														<a href="lighting-store.html">lighting </a>
-														<a href="heating-store.html">heating </a>
+														<a href="lighting-store.php">lighting </a>
+														<a href="heating-store.php">heating </a>
 																				</span>
 													<span class="mega-menu-img">
 														<a href="#"><img alt="" src="img/about_pics/store-image.png"></a>
 													</span>
 												</div>											
 											</li>
-											<li><a href="contact.html">contact</a></li>
+											<li><a href="contact.php">contact</a></li>
 										</ul>
 									</nav>
 								</div>
@@ -86,26 +111,26 @@
 							<div class="col-md-2 col-sm-8 col-xs-7 header-right">
 								<div class="my-cart">
 									<div class="total-cart">
-										<a href="cart.html">
+										<a href="cart.php">
 											<i class="fa fa-shopping-cart"></i>
 											<span>2</span>
 										</a>								
 									</div>
 									<ul>
 										<li>
-											<a class="cart-button" href="cart.html">view cart</a>
-											<a class="checkout" href="checkout.html">checkout</a>
+											<a class="cart-button" href="cart.php">view cart</a>
+											<a class="checkout" href="checkout.php">checkout</a>
 										</li>
 									</ul>
 								</div>
 								<div class="user-meta">
 									<a href="#"><i class="fa fa-cog"></i></a>
 									<ul>
-										<li><a href="login.html">My Account</a></li>
+										<li><a href="login.php">My Account</a></li>
 										
-										<li><a href="checkout.html">Checkout</a></li>
+										<li><a href="checkout.php">Checkout</a></li>
 										
-										<li><a href="login.html">Log in</a></li>
+										<li><a href="login.php">Log in</a></li>
 									</ul>								
 								</div>
 								<div class="header-search">
@@ -131,39 +156,39 @@
 							<div class="mobile-menu">
 								<nav id="dropdown">
 									<ul>
-										<li><a href="index.html">Home</a>
+										<li><a href="index.php">Home</a>
 									
 										</li>
-										<li><a href="about.html">About</a></li>
-										<li><a href="shop-full-width.html">Store</a>
+										<li><a href="about.php">About</a></li>
+										<li><a href="shop-full-width.php">Store</a>
 											<ul>
 												<li><a href="#">control automation</a>
 													<ul>
-														<li><a href="capacitors-store.html">capacitors</a></li>
-														<li><a href="contactors-store.html">contactors</a></li>
-														<li><a href="relay-store.html">relays </a></li>
-														<li><a href="fuses-store.html">fuses</a></li>
+														<li><a href="capacitors-store.php">capacitors</a></li>
+														<li><a href="contactors-store.php">contactors</a></li>
+														<li><a href="relay-store.php">relays </a></li>
+														<li><a href="fuses-store.php">fuses</a></li>
 													</ul>
 												</li>
 												<li><a href="#">switches</a>
 													<ul>
-														<li><a href="gridswitch-store.html">grid switches</a></li>
-														<li><a href="switchgears-store.html">switchgears</a></li>
-														<li><a href="mcb-store.html">mcb's </a></li>
+														<li><a href="gridswitch-store.php">grid switches</a></li>
+														<li><a href="switchgears-store.php">switchgears</a></li>
+														<li><a href="mcb-store.php">mcb's </a></li>
 														
 													</ul>
 												</li>
 												<li><a href="#">other items</a>
 													<ul>
-														<li><a href="lighting-store.html">lighting </a></li>
-														<li><a href="heating-store.html">heating</a></li>
+														<li><a href="lighting-store.php">lighting </a></li>
+														<li><a href="heating-store.php">heating</a></li>
 														
 													</ul>
 												</li>											
 											</ul>
 										</li>
 									
-									<li><a href="contact.html">Contact</a></li>
+									<li><a href="contact.php">Contact</a></li>
 									</ul>
 								</nav>
 							</div>					
@@ -182,7 +207,7 @@
 						<div class="breadcrumb-list">
 							<h1>Login</h1>
 							<ul>
-								<li><a href="index.html">home</a> <span class="divider">|</span></li>
+								<li><a href="index.php">home</a> <span class="divider">|</span></li>
 								<li>Login</li>
 							</ul>							
 						</div>
@@ -225,9 +250,13 @@
 						<div class="login-content login-margin">
 							<h2 class="login-title">create a new account</h2>
 							<p>Create your own Unicase account.</p>
-							<form action="#">
+							<form action="#" method="post">
+								<label>Your Name</label>
+								<input type="text" name="name" />
 								<label>Email Address</label>
-								<input type="text" />
+								<input type="email" name="email" />
+								<label>Password</label>
+								<input type="password" name="password" />
 								<input class="login-sub" type="submit" value="sign up" />
 							</form>
 							<div class="sign-up-today">

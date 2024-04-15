@@ -62,44 +62,44 @@ if (isset($_POST['delete'])) {
 						<div class="row">
 							<div class="col-md-2 col-sm-4 col-xs-5">
 								<div class="logo">
-									<a href="index.html"><img src="img/spark-logo.png" alt="" /></a>
+									<a href="index.php"><img src="img/spark-logo.png" alt="" /></a>
 								</div>
 							</div>
 							<div class="col-md-8 hidden-xs hidden-sm">
 								<div class="main-menu">
 									<nav>
 										<ul>
-											<li><a href="index.html">home</a>
+											<li><a href="index.php">home</a>
 											</li>
-											<li><a href="about.html">about</a></li>
+											<li><a href="about.php">about</a></li>
 											<li><a href="#">store</a>
 												<div class="mega-menu mega-menu-2">											
 													<span>
 														<a href="#" class="mega-title">control automation </a>
-														<a href="capacitors-store.html">capacitors</a>
-														<a href="contactors-store.html">contactors</a>
-														<a href="relay-store.html">relays</a>
-														<a href="fuses-store.html">fuses </a>
+														<a href="capacitors-store.php">capacitors</a>
+														<a href="contactors-store.php">contactors</a>
+														<a href="relay-store.php">relays</a>
+														<a href="fuses-store.php">fuses </a>
 													</span>
 													<span>
 														<a href="#" class="mega-title">switches </a>
-														<a href="gridswitch-store.html">grid switches</a>
-														<a href="switchgears-store.html">switchgearst</a>
-														<a href="mcb-store.html">mcb's </a>
+														<a href="gridswitch-store.php">grid switches</a>
+														<a href="switchgears-store.php">switchgearst</a>
+														<a href="mcb-store.php">mcb's </a>
 														
 													</span>
 													<span>
 														<a href="#" class="mega-title">other items </a>
-														<a href="lighting-store.html">lighting </a>
-														<a href="heating-store.html">heating </a>
+														<a href="lighting-store.php">lighting </a>
+														<a href="heating-store.php">heating </a>
 														
 													</span>
 													<span class="mega-menu-img">
-														<a href="shop.html"><img alt="" src="img/about_pics/store-image.png"></a>
+														<a href="shop.php"><img alt="" src="img/about_pics/store-image.png"></a>
 													</span>
 												</div>											
 											</li>
-											<li><a href="contact.html">contact</a></li>
+											<li><a href="contact.php">contact</a></li>
 										</ul>
 									</nav>
 								</div>
@@ -107,26 +107,26 @@ if (isset($_POST['delete'])) {
 							<div class="col-md-2 col-sm-8 col-xs-7 header-right">
 								<div class="my-cart">
 									<div class="total-cart">
-										<a href="cart.html">
+										<a href="cart.php">
 											<i class="fa fa-shopping-cart"></i>
 											<span>2</span>
 										</a>								
 									</div>
 									<ul>
 										<li>
-											<a class="cart-button" href="cart.html">view cart</a>
-											<a class="checkout" href="checkout.html">checkout</a>
+											<a class="cart-button" href="cart.php">view cart</a>
+											<a class="checkout" href="checkout.php">checkout</a>
 										</li>
 									</ul>
 								</div>
 								<div class="user-meta">
 									<a href="#"><i class="fa fa-cog"></i></a>
 									<ul>
-										<li><a href="login.html">My Account</a></li>
+										<li><a href="login.php">My Account</a></li>
 										
-										<li><a href="checkout.html">Checkout</a></li>
+										<li><a href="checkout.php">Checkout</a></li>
 										
-										<li><a href="login.html">Log in</a></li>
+										<li><a href="login.php">Log in</a></li>
 									</ul>								
 								</div>
 								<div class="header-search">
@@ -152,33 +152,33 @@ if (isset($_POST['delete'])) {
 							<div class="mobile-menu">
 								<nav id="dropdown">
 									<ul>
-										<li><a href="index.html">Home</a>
+										<li><a href="index.php">Home</a>
 											
 										</li>
-										<li><a href="about.html">About</a></li>
+										<li><a href="about.php">About</a></li>
 									
 										<li><a href="#">Store</a>
 											<ul>
 												<li><a href="#">control automation</a>
 													<ul>
-														<li><a href="capacitors-store.html">capacitors</a></li>
-														<li><a href="contactors-store.html">contactors</a></li>
-														<li><a href="relay-store.html">relays </a></li>
-														<li><a href="fuses-store.html">fuses</a></li>
+														<li><a href="capacitors-store.php">capacitors</a></li>
+														<li><a href="contactors-store.php">contactors</a></li>
+														<li><a href="relay-store.php">relays </a></li>
+														<li><a href="fuses-store.php">fuses</a></li>
 													</ul>
 												</li>
 												<li><a href="#">switches</a>
 													<ul>
-														<li><a href="gridswitch-store.html">grid switches</a></li>
-														<li><a href="switchgears-store.html">switchgears</a></li>
-														<li><a href="mcb-store.html">mcb's </a></li>
+														<li><a href="gridswitch-store.php">grid switches</a></li>
+														<li><a href="switchgears-store.php">switchgears</a></li>
+														<li><a href="mcb-store.php">mcb's </a></li>
 														
 													</ul>
 												</li>
 												<li><a href="#">other items</a>
 													<ul>
-														<li><a href="lighting-store.html">lighting </a></li>
-														<li><a href="heating-store.html">heating</a></li>
+														<li><a href="lighting-store.php">lighting </a></li>
+														<li><a href="heating-store.php">heating</a></li>
 														
 													</ul>
 												</li>											
@@ -186,7 +186,7 @@ if (isset($_POST['delete'])) {
 										</li>
 										
 										
-										<li><a href="contact.html">Contact</a></li>
+										<li><a href="contact.php">Contact</a></li>
 									</ul>
 								</nav>
 							</div>					
@@ -205,8 +205,8 @@ if (isset($_POST['delete'])) {
 						<div class="breadcrumb-list">
 							<h1>Shopping Cart</h1>
 							<ul>
-								<li><a href="index.html">home</a> <span class="divider">|</span></li>
-								<li><a href="cart.html">Shopping cart</a> <span class="divider">|</span></li>
+								<li><a href="index.php">home</a> <span class="divider">|</span></li>
+								<li><a href="cart.php">Shopping cart</a> <span class="divider">|</span></li>
 								<li>Shopping cart</li>
 							</ul>							
 						</div>
@@ -271,7 +271,7 @@ if (isset($_POST['delete'])) {
 								<div class="col-md-8 col-sm-7 col-xs-12">
 									<div class="buttons-cart">
 										<input type="submit" value="Update Cart" />
-										<a href="index.html">Continue Shopping</a>
+										<a href="index.php">Continue Shopping</a>
 									</div>
 									<div class="coupon">
 										<h3>Coupon</h3>
@@ -396,10 +396,10 @@ if (isset($_POST['delete'])) {
 							<div class="footer-widget">
 								<h3>My account</h3>
 								<ul class="footer-menu">
-									<li><a href="checkout.html">Order Status</a></li>
-									<li><a href="login.html">Register</a></li>
-									<li><a href="login.html">Sign-up</a></li>
-									<li><a href="checkout.html">Payment Options</a></li>
+									<li><a href="checkout.php">Order Status</a></li>
+									<li><a href="login.php">Register</a></li>
+									<li><a href="login.php">Sign-up</a></li>
+									<li><a href="checkout.php">Payment Options</a></li>
 								</ul>
 							</div>
 						</div>
@@ -409,10 +409,10 @@ if (isset($_POST['delete'])) {
 							<div class="footer-widget">
 								<h3>about us</h3>
 								<ul class="footer-menu">
-									<li><a href="checkout.html">Payment</a></li>
-									<li><a href="thank-you.html">feedback</a></li>
-									<li><a href="about.html">About Us</a></li>
-									<li><a href="contact.html">Contact Us</a></li>
+									<li><a href="checkout.php">Payment</a></li>
+									<li><a href="thank-you.php">feedback</a></li>
+									<li><a href="about.php">About Us</a></li>
+									<li><a href="contact.php">Contact Us</a></li>
 								</ul>
 							</div>
 						</div>
